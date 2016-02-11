@@ -1,0 +1,39 @@
+﻿<div>
+    <h1>Contact</h1>
+    <p>Via dit formulier kun je vragen stellen of feedback geven aan het bestuur van dé Nederlandse dotNed User Group (dotNed).</p>
+
+    <form class="form-horizontal" method="post">
+        <fieldset>
+            <legend>Neem contact op</legend>
+            <div class="form-group">
+                <label for="inputName" class="col-lg-2 control-label">Naam</label>
+                <div class="col-lg-5">
+                    <input type="text" class="form-control" id="inputName" name="inputName" placeholder="Naam" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+                <div class="col-lg-5">
+                    <input type="text" class="form-control" id="inputEmail" name="inputEmail" placeholder="Email" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputSubject" class="col-lg-2 control-label">Onderwerp</label>
+                <div class="col-lg-5">
+                    <input type="text" class="form-control" id="inputSubject" name="inputSubject" placeholder="Onderwerp" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="textAreaMessage" class="col-lg-2 control-label">Vraag of opmerking</label>
+                <div class="col-lg-10">
+                    <textarea class="form-control" rows="3" id="textAreaMessage" name="textAreaMessage" required></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-lg-10 col-lg-offset-2">
+                    <button disabled="disabled" type="submit" id="buttonSubmit" value="verzenden" name="buttonSubmit" class="btn btn-primary">Verzenden</button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</div>
