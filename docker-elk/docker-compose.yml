@@ -6,7 +6,7 @@ elasticsearch:
 logstash:
   image: logstash:latest
   ports:
-    - "5000:5000"
+    - "5000"
   links:
     - elasticsearch
 kibana:
