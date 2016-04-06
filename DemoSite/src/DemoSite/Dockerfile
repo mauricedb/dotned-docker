@@ -7,7 +7,7 @@ COPY ./project.json ./app/
 WORKDIR ./app
 RUN dnu restore
 
-COPY . ./app
+COPY . .
 
 EXPOSE 5000
 
